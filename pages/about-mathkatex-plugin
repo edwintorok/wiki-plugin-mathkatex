@@ -1,0 +1,37 @@
+{
+  "title": "About MathKaTeX Plugin",
+  "story": [
+  {
+    "type": "paragraph",
+    "id": "20bd2fea9ddc7fa3",
+    "text": "Here we describe the purpose of the plugin and include a sample."
+  },
+  {
+    "type": "mathkatex",
+    "id": "14c16d7d752b0bc8",
+    "text": "This is text in the new plugin. You can *double-click* to edit it too."
+  }
+],
+  "journal": [
+  {
+    "type": "create",
+    "item": {
+      "title": "About MathKaTeX Plugin",
+      "story": [
+  {
+    "type": "paragraph",
+    "id": "20bd2fea9ddc7fa3",
+    "text": "Here we describe the purpose of the plugin and include a sample."
+  },
+  {
+    "type": "mathkatex",
+    "id": "14c16d7d752b0bc8",
+    "text": "This is text in the new plugin. You can *double-click* to edit it too."
+  }
+]
+    },
+    "date": 1534077223000,
+    "certificate": "from mkplugin.sh"
+  }
+]
+}
