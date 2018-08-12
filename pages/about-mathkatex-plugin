@@ -1,37 +1,73 @@
 {
   "title": "About MathKaTeX Plugin",
   "story": [
-  {
-    "type": "paragraph",
-    "id": "20bd2fea9ddc7fa3",
-    "text": "Here we describe the purpose of the plugin and include a sample."
-  },
-  {
-    "type": "mathkatex",
-    "id": "14c16d7d752b0bc8",
-    "text": "This is text in the new plugin. You can *double-click* to edit it too."
-  }
-],
-  "journal": [
-  {
-    "type": "create",
-    "item": {
-      "title": "About MathKaTeX Plugin",
-      "story": [
-  {
-    "type": "paragraph",
-    "id": "20bd2fea9ddc7fa3",
-    "text": "Here we describe the purpose of the plugin and include a sample."
-  },
-  {
-    "type": "mathkatex",
-    "id": "14c16d7d752b0bc8",
-    "text": "This is text in the new plugin. You can *double-click* to edit it too."
-  }
-]
+    {
+      "type": "paragraph",
+      "id": "20bd2fea9ddc7fa3",
+      "text": "The MathKaTeX plugin renders LaTeX mathematical notation embedded within an otherwise normal paragraph."
     },
-    "date": 1534077223000,
-    "certificate": "from mkplugin.sh"
-  }
-]
+    {
+      "type": "paragraph",
+      "id": "a7d6921b1f6e2fbd",
+      "text": "Read about the KaTeX display engine at [https://khan.github.io/KaTeX/ katex.org]."
+    },
+    {
+      "type": "mathkatex",
+      "id": "14c16d7d752b0bc8",
+      "text": "Enclose \\(\\LaTeX\\) math inside backslashed parenthesis when you want to embed it inline: \\(f(x) = \\int_{-\\infty}^\\infty\n    \\hat f(\\xi)\\,e^{2 \\pi i \\xi x}\n    \\,d\\xi\\); and inside double dollars, or backslashed square brackets when you want it centered on its own line: $$a/b$$ \\[f(x) = \\int_{-\\infty}^\\infty\n    \\hat f(\\xi)\\,e^{2 \\pi i \\xi x}\n    \\,d\\xi\\]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "About MathKaTeX Plugin",
+        "story": [
+          {
+            "type": "paragraph",
+            "id": "20bd2fea9ddc7fa3",
+            "text": "Here we describe the purpose of the plugin and include a sample."
+          },
+          {
+            "type": "mathkatex",
+            "id": "14c16d7d752b0bc8",
+            "text": "This is text in the new plugin. You can *double-click* to edit it too."
+          }
+        ]
+      },
+      "date": 1534077223000,
+      "certificate": "from mkplugin.sh"
+    },
+    {
+      "type": "edit",
+      "id": "20bd2fea9ddc7fa3",
+      "item": {
+        "type": "paragraph",
+        "id": "20bd2fea9ddc7fa3",
+        "text": "The MathKaTeX plugin renders LaTeX mathematical notation embedded within an otherwise normal paragraph."
+      },
+      "date": 1534091853775
+    },
+    {
+      "type": "add",
+      "id": "a7d6921b1f6e2fbd",
+      "item": {
+        "type": "paragraph",
+        "id": "a7d6921b1f6e2fbd",
+        "text": "Read about the KaTeX display engine at [https://khan.github.io/KaTeX/ katex.org]."
+      },
+      "after": "20bd2fea9ddc7fa3",
+      "date": 1534091866002
+    },
+    {
+      "type": "edit",
+      "id": "14c16d7d752b0bc8",
+      "item": {
+        "type": "mathkatex",
+        "id": "14c16d7d752b0bc8",
+        "text": "Enclose \\(\\LaTeX\\) math inside backslashed parenthesis when you want to embed it inline: \\(f(x) = \\int_{-\\infty}^\\infty\n    \\hat f(\\xi)\\,e^{2 \\pi i \\xi x}\n    \\,d\\xi\\); and inside double dollars, or backslashed square brackets when you want it centered on its own line: $$a/b$$ \\[f(x) = \\int_{-\\infty}^\\infty\n    \\hat f(\\xi)\\,e^{2 \\pi i \\xi x}\n    \\,d\\xi\\]"
+      },
+      "date": 1534091903643
+    }
+  ]
 }
