@@ -9,9 +9,9 @@
     "plugin"
   ],
   "author": {
-    "name": "Your Name",
-    "email": "you@example.com",
-    "url": "http://example.com"
+    "name": "Edwin Török",
+    "email": "edwin@etorok.net",
+    "url": "https://github.com/edwintorok"
   },
   "contributors": [],
   "scripts": {
@@ -29,12 +29,16 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fedwiki/wiki-plugin-mathkatex.git"
+    "url": "https://github.com/edwintorok/wiki-plugin-mathkatex.git"
   },
   "bugs": {
-    "url": "https://github.com/fedwiki/wiki-plugin-mathkatex/issues"
+    "url": "https://github.com/edwintorok/wiki-plugin-mathkatex/issues"
   },
   "engines": {
     "node": ">=0.10"
+  },
+  "dependencies": {
+    "katex": "^0.10.0-beta",
+    "wiki-plugin-markdown": "^0.3.0"
   }
 }
