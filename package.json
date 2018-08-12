@@ -39,7 +39,9 @@
     "node": ">=0.10"
   },
   "dependencies": {
-    "katex": "^0.10.0-beta",
-    "wiki-plugin-markdown": "^0.3.0"
-  }
+    "katex": "^0.10.0-beta"
+  },
+  "files": [
+      "client/", "factory.json", "pages"
+  ]
 }
